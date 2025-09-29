@@ -27,34 +27,7 @@ The solution is built upon the **Medallion Architecture**, providing robust qual
 | **Data Quality** | Scripts designed to validate primary key integrity, check data consistency (e.g., `Sales = Quantity * Price`), and confirm standardization post-transformation. | `tests/` |
 | **Naming Conventions** | Strict adherence to predefined conventions (`snake_case`, `dim_`, `fact_`, `dwh_` prefixes) for object clarity and maintainability. | `docs/` |
 
----
 
-## 📂 Project Structure
-.
-├── datasets/             # Source CSV data (CRM, ERP)
-├── docs/                 # Architecture diagrams, data catalog, naming conventions
-├── scripts/              # SQL ETL scripts (DDL and Stored Procedures)
-│   ├── ddl_.sql         # Table/View definitions for each layer
-│   └── proc_load_.sql   # ETL logic
-├── tests/                # Data quality and validation scripts
-└── README.md             # Project documentation
-
----
-
-## 📈 Analytical Capabilities
-
-The clean, modeled data in the Gold layer enables powerful business insights:
-
-* ### Customer 360 Analysis
-    * Analyze customer demographics (gender, country) and their associated purchasing behavior.
-
-* ### Product Performance Tracking
-    * Assess product performance, cost, and sales trends by category and product line.
-
-* ### Sales Trend Analysis
-    * Track and compare key metrics like total sales, quantity sold, and pricing over time.
-
----
 
 ## 🚀 Getting Started
 
