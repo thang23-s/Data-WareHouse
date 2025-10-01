@@ -27,7 +27,14 @@ The solution is built upon the **Medallion Architecture**, providing robust qual
 | **Data Quality** | Scripts designed to validate primary key integrity, check data consistency (e.g., `Sales = Quantity * Price`), and confirm standardization post-transformation. | `tests/` |
 | **Naming Conventions** | Strict adherence to predefined conventions (`snake_case`, `dim_`, `fact_`, `dwh_` prefixes) for object clarity and maintainability. | `docs/` |
 
+## 📂 Repository Structure
 
+📂 Data-WareHouse/  
+├── 📂 Script/           # SQL scripts (ETL, DDL, Stored Procedures)  
+├── 📂 datasets/         # Source CSV data files  
+├── 📂 docs/             # Documentation (naming conventions, data model, etc.)  
+├── 📂 test/             # Data quality & validation scripts  
+└── 📄 README.md         # Project documentation  
 
 ## 🚀 Getting Started
 
@@ -38,4 +45,4 @@ The solution is built upon the **Medallion Architecture**, providing robust qual
     1.  `EXEC bronze.load_bronze;`
     2.  `EXEC silver.load_silver;`
     3.  Execute `scripts/ddl_gold.sql` to finalize the analytical views.
-5.  **Validate:** Run the scripts in the `tests/` folder to confirm data quality before consumption.
+5.  **Validate:** Run the scripts in the `test/` folder to confirm data quality before consumption.
