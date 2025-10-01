@@ -1,8 +1,9 @@
 **General Principles**
 
 -**Naming Conventions** :lowercase letters with underscores (_).
--**Language** : Use English for all names.
--**Avoid Reserverd Words** :Do not use SQL reserved words as object names.
+- **Language** : Use English for all names.
+- **Avoid Reserverd Words** :Do not use SQL reserved words as object names.
+  
 **Tables Naming Conventions**
 
 **Bronze Rules**
