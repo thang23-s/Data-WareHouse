@@ -1,6 +1,6 @@
 **General Principles**
 
--**Naming Conventions** :lowercase letters with underscores (_).
+- **Naming Conventions** :lowercase letters with underscores (_).
 - **Language** : Use English for all names.
 - **Avoid Reserverd Words** :Do not use SQL reserved words as object names.
   
